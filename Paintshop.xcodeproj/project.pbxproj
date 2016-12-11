@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		801ACC591DF8005A00FACB67 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801ACC581DF8005A00FACB67 /* main.swift */; };
+		801ACC601DF800FB00FACB67 /* ConsoleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801ACC5F1DF800FB00FACB67 /* ConsoleIO.swift */; };
+		801ACC661DF80D8B00FACB67 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801ACC651DF80D8B00FACB67 /* Customer.swift */; };
+		801ACC681DF80E2200FACB67 /* Paint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801ACC671DF80E2200FACB67 /* Paint.swift */; };
+		801ACC6A1DF81E9100FACB67 /* FileParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801ACC691DF81E9100FACB67 /* FileParser.swift */; };
+		801ACC6C1DF8259E00FACB67 /* PaintShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801ACC6B1DF8259E00FACB67 /* PaintShop.swift */; };
+		801ACC8D1DFC524500FACB67 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801ACC8C1DFC524500FACB67 /* Errors.swift */; };
+		80FBBFFC1DFD53EF0034D28E /* PaintshopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FBBFFB1DFD53EF0034D28E /* PaintshopTests.swift */; };
+		80FBC0041DFD55FA0034D28E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801ACC581DF8005A00FACB67 /* main.swift */; };
+		80FBC0051DFD55FA0034D28E /* ConsoleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801ACC5F1DF800FB00FACB67 /* ConsoleIO.swift */; };
+		80FBC0061DFD55FA0034D28E /* FileParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801ACC691DF81E9100FACB67 /* FileParser.swift */; };
+		80FBC0071DFD55FA0034D28E /* PaintShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801ACC6B1DF8259E00FACB67 /* PaintShop.swift */; };
+		80FBC0081DFD55FA0034D28E /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801ACC651DF80D8B00FACB67 /* Customer.swift */; };
+		80FBC0091DFD55FA0034D28E /* Paint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801ACC671DF80E2200FACB67 /* Paint.swift */; };
+		80FBC00A1DFD55FA0034D28E /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801ACC8C1DFC524500FACB67 /* Errors.swift */; };
+		80FBC0341DFD6AB00034D28E /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 80FBC0331DFD6AB00034D28E /* Resources */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		801ACC531DF8005A00FACB67 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		801ACC551DF8005A00FACB67 /* Paintshop */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Paintshop; sourceTree = BUILT_PRODUCTS_DIR; };
+		801ACC581DF8005A00FACB67 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		801ACC5F1DF800FB00FACB67 /* ConsoleIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleIO.swift; sourceTree = "<group>"; };
+		801ACC651DF80D8B00FACB67 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		801ACC671DF80E2200FACB67 /* Paint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paint.swift; sourceTree = "<group>"; };
+		801ACC691DF81E9100FACB67 /* FileParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileParser.swift; sourceTree = "<group>"; };
+		801ACC6B1DF8259E00FACB67 /* PaintShop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintShop.swift; sourceTree = "<group>"; };
+		801ACC8C1DFC524500FACB67 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		80FBBFF91DFD53EF0034D28E /* PaintshopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintshopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FBBFFB1DFD53EF0034D28E /* PaintshopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintshopTests.swift; sourceTree = "<group>"; };
+		80FBBFFD1DFD53EF0034D28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80FBC0331DFD6AB00034D28E /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		801ACC521DF8005A00FACB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FBBFF61DFD53EF0034D28E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		801ACC4C1DF8005A00FACB67 = {
+			isa = PBXGroup;
+			children = (
+				801ACC571DF8005A00FACB67 /* Paintshop */,
+				80FBBFFA1DFD53EF0034D28E /* PaintshopTests */,
+				801ACC561DF8005A00FACB67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		801ACC561DF8005A00FACB67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				801ACC551DF8005A00FACB67 /* Paintshop */,
+				80FBBFF91DFD53EF0034D28E /* PaintshopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		801ACC571DF8005A00FACB67 /* Paintshop */ = {
+			isa = PBXGroup;
+			children = (
+				80FBC00D1DFD56500034D28E /* Models */,
+				80FBC00C1DFD56490034D28E /* Utility */,
+				80FBC00B1DFD563F0034D28E /* Main */,
+			);
+			path = Paintshop;
+			sourceTree = "<group>";
+		};
+		80FBBFFA1DFD53EF0034D28E /* PaintshopTests */ = {
+			isa = PBXGroup;
+			children = (
+				80FBC0331DFD6AB00034D28E /* Resources */,
+				80FBBFFB1DFD53EF0034D28E /* PaintshopTests.swift */,
+				80FBBFFD1DFD53EF0034D28E /* Info.plist */,
+			);
+			path = PaintshopTests;
+			sourceTree = "<group>";
+		};
+		80FBC00B1DFD563F0034D28E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				801ACC581DF8005A00FACB67 /* main.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		80FBC00C1DFD56490034D28E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				801ACC8C1DFC524500FACB67 /* Errors.swift */,
+				801ACC5F1DF800FB00FACB67 /* ConsoleIO.swift */,
+				801ACC691DF81E9100FACB67 /* FileParser.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		80FBC00D1DFD56500034D28E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				801ACC6B1DF8259E00FACB67 /* PaintShop.swift */,
+				801ACC651DF80D8B00FACB67 /* Customer.swift */,
+				801ACC671DF80E2200FACB67 /* Paint.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		801ACC541DF8005A00FACB67 /* Paintshop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801ACC5C1DF8005A00FACB67 /* Build configuration list for PBXNativeTarget "Paintshop" */;
+			buildPhases = (
+				801ACC511DF8005A00FACB67 /* Sources */,
+				801ACC521DF8005A00FACB67 /* Frameworks */,
+				801ACC531DF8005A00FACB67 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paintshop;
+			productName = Paintshop;
+			productReference = 801ACC551DF8005A00FACB67 /* Paintshop */;
+			productType = "com.apple.product-type.tool";
+		};
+		80FBBFF81DFD53EF0034D28E /* PaintshopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FBBFFE1DFD53EF0034D28E /* Build configuration list for PBXNativeTarget "PaintshopTests" */;
+			buildPhases = (
+				80FBBFF51DFD53EF0034D28E /* Sources */,
+				80FBBFF61DFD53EF0034D28E /* Frameworks */,
+				80FBBFF71DFD53EF0034D28E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaintshopTests;
+			productName = PaintshopTests;
+			productReference = 80FBBFF91DFD53EF0034D28E /* PaintshopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		801ACC4D1DF8005A00FACB67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Marc Dermejian";
+				TargetAttributes = {
+					801ACC541DF8005A00FACB67 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9S848SD496;
+						ProvisioningStyle = Automatic;
+					};
+					80FBBFF81DFD53EF0034D28E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 801ACC501DF8005A00FACB67 /* Build configuration list for PBXProject "Paintshop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 801ACC4C1DF8005A00FACB67;
+			productRefGroup = 801ACC561DF8005A00FACB67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				801ACC541DF8005A00FACB67 /* Paintshop */,
+				80FBBFF81DFD53EF0034D28E /* PaintshopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80FBBFF71DFD53EF0034D28E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FBC0341DFD6AB00034D28E /* Resources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		801ACC511DF8005A00FACB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801ACC6C1DF8259E00FACB67 /* PaintShop.swift in Sources */,
+				801ACC6A1DF81E9100FACB67 /* FileParser.swift in Sources */,
+				801ACC661DF80D8B00FACB67 /* Customer.swift in Sources */,
+				801ACC681DF80E2200FACB67 /* Paint.swift in Sources */,
+				801ACC591DF8005A00FACB67 /* main.swift in Sources */,
+				801ACC601DF800FB00FACB67 /* ConsoleIO.swift in Sources */,
+				801ACC8D1DFC524500FACB67 /* Errors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FBBFF51DFD53EF0034D28E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FBC0071DFD55FA0034D28E /* PaintShop.swift in Sources */,
+				80FBC0061DFD55FA0034D28E /* FileParser.swift in Sources */,
+				80FBC0091DFD55FA0034D28E /* Paint.swift in Sources */,
+				80FBC0051DFD55FA0034D28E /* ConsoleIO.swift in Sources */,
+				80FBC00A1DFD55FA0034D28E /* Errors.swift in Sources */,
+				80FBC0081DFD55FA0034D28E /* Customer.swift in Sources */,
+				80FBC0041DFD55FA0034D28E /* main.swift in Sources */,
+				80FBBFFC1DFD53EF0034D28E /* PaintshopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		801ACC5A1DF8005A00FACB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		801ACC5B1DF8005A00FACB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		801ACC5D1DF8005A00FACB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9S848SD496;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		801ACC5E1DF8005A00FACB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9S848SD496;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		80FBBFFF1DFD53EF0034D28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PaintshopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gilt.PaintshopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		80FBC0001DFD53EF0034D28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PaintshopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gilt.PaintshopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		801ACC501DF8005A00FACB67 /* Build configuration list for PBXProject "Paintshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801ACC5A1DF8005A00FACB67 /* Debug */,
+				801ACC5B1DF8005A00FACB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801ACC5C1DF8005A00FACB67 /* Build configuration list for PBXNativeTarget "Paintshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801ACC5D1DF8005A00FACB67 /* Debug */,
+				801ACC5E1DF8005A00FACB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80FBBFFE1DFD53EF0034D28E /* Build configuration list for PBXNativeTarget "PaintshopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FBBFFF1DFD53EF0034D28E /* Debug */,
+				80FBC0001DFD53EF0034D28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 801ACC4D1DF8005A00FACB67 /* Project object */;
+}
